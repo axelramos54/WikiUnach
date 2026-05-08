@@ -1,0 +1,115 @@
+# =============================================================
+#   WikiUnach — .gitignore
+#   Visual Studio 2022 + C# WinForms + .NET Framework 4.7.2
+#   AWS S3 + RDS MySQL + Native DLL (C++/ASM)
+# =============================================================
+
+
+# -------------------------------------------------------------
+# 🔐 SECURITY — NEVER commit these files
+# -------------------------------------------------------------
+
+# App configuration with AWS keys, Gmail credentials, DB strings
+App.config
+*.exe.config
+*.config
+
+# Keep ONLY the safe template version
+!App.config.template
+
+
+# -------------------------------------------------------------
+# 🗑️ VISUAL STUDIO — Internal files, caches, user preferences
+# -------------------------------------------------------------
+
+# VS hidden folder (Copilot indexes, layout, suo files)
+.vs/
+
+# User-specific settings (breakpoints, window layout, etc.)
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+# VS Code (if anyone opens project in VSCode)
+.vscode/
+
+
+# -------------------------------------------------------------
+# 🏗️ BUILD OUTPUT — Compiled binaries and intermediates
+# -------------------------------------------------------------
+
+# Output folders (Debug and Release)
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+
+# Compiled files
+*.exe
+*.dll
+*.pdb
+*.cache
+*.ilk
+*.meta
+
+# EXCEPTION: Keep our custom native DLL (our own compiled work)
+!VerificadorAdmin.dll
+
+
+# -------------------------------------------------------------
+# 📦 NUGET PACKAGES — Restored automatically, never stored
+# -------------------------------------------------------------
+
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet v3
+*.nuget.props
+*.nuget.targets
+
+
+# -------------------------------------------------------------
+# 🖥️ WINDOWS — OS generated files
+# -------------------------------------------------------------
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+
+# -------------------------------------------------------------
+# 📝 TEMPORARY & LOG FILES
+# -------------------------------------------------------------
+
+*.tmp
+*.temp
+*.log
+*.swp
+*~
+
+
+# -------------------------------------------------------------
+# 🔧 RESHARPER / RIDER (JetBrains tools)
+# -------------------------------------------------------------
+
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+
+# -------------------------------------------------------------
+# 📊 TEST RESULTS (if tests are added later)
+# -------------------------------------------------------------
+
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
