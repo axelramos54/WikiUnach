@@ -2,6 +2,8 @@
 
 <div align="center">
 
+  <img src="docs/screenshots/logo.png" alt="WikiUnach Logo" width="180"/>
+
   # WikiUnach — Biblioteca Digital Universitaria
 
   **Collaborative academic platform for the UNACH university community**
@@ -12,6 +14,11 @@
   [![C#](https://img.shields.io/badge/Language-C%23-239120.svg)]()
   [![AWS](https://img.shields.io/badge/Cloud-AWS%20S3%20%2B%20RDS-FF9900.svg)]()
   [![MySQL](https://img.shields.io/badge/Database-MySQL%208.0-4479A1.svg)]()
+
+  [📖 User Manual](docs/Manual_de_Usuario.pdf) •
+  [🏗️ Technical Docs](docs/Documentacion_Tecnica.pdf) •
+  [🎬 Demo Video](#-demo) •
+  [⚙️ Setup Guide](#-installation--setup)
 
 </div>
 
