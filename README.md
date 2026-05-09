@@ -16,7 +16,7 @@
   [![MySQL](https://img.shields.io/badge/Database-MySQL%208.0-4479A1.svg)]()
 
   [📖 User Manual](docs/WikiUnach_Manual_de_Usuario.pdf) •
-  [🏗️ Technical Docs](docs/WikiUnach_Documentacion_Tecnica.pdf) •
+  [🏗️ Technical Docs](docs/WikiUnach_Documentacion_Tecnica.pdf)•
   [🎬 Demo Video](#-demo) •
   [⚙️ Setup Guide](#-installation--setup)
 
