@@ -8,6 +8,7 @@
 
   **Collaborative academic platform for the UNACH university community**
 
+  [![GitHub Release](https://img.shields.io/github/v/release/axelramos54/WikiUnach?include_prereleases=false&sort=semver&color=blue)](https://github.com/axelramos54/WikiUnach/releases/latest)
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
   [![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)]()
   [![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.7.2-purple.svg)]()
@@ -187,9 +188,9 @@ digital library**, organized by Faculty → Degree → Semester → Subject.
 
 <div align="center">
 
-[![WikiUnach Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://youtu.be/R0Z1kk0pd5I)
+[![WikiUnach Demo](https://img.youtube.com/vi/R0Z1kk0pd5I/hqdefault.jpg)](https://www.youtube.com/watch?v=R0Z1kk0pd5I)
 
-▶️ **[Watch Full Demo on YouTube](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)**
+▶️ **[Watch Full Demo on YouTube](https://www.youtube.com/watch?v=R0Z1kk0pd5I)**
 
 </div>
 
@@ -200,14 +201,6 @@ The demo covers:
 - ✅ Wiki version history and commit comparison
 - ✅ Real-time notifications
 - ✅ Admin panel via native DLL validator
-
-The demo will cover:
-- User registration with email verification
-- Navigating by Faculty → Degree → Semester → Subject
-- Uploading a file to AWS S3
-- Version history and commit comparison
-- Admin panel access via native DLL validator
-
 ---
 
 ## 🚀 Installation & Setup
@@ -377,4 +370,4 @@ This project is licensed under the **MIT License** — see the
 
 ⭐ If you found this project useful, please consider starring the repository!
 
-</div>test
+</div>
