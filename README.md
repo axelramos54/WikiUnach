@@ -15,8 +15,8 @@
   [![AWS](https://img.shields.io/badge/Cloud-AWS%20S3%20%2B%20RDS-FF9900.svg)]()
   [![MySQL](https://img.shields.io/badge/Database-MySQL%208.0-4479A1.svg)]()
 
-  [📖 User Manual](docs/Manual_de_Usuario.pdf) •
-  [🏗️ Technical Docs](docs/Documentacion_Tecnica.pdf) •
+  [📖 User Manual](docs/WikiUnach_Manual_de_Usuario.pdf) •
+  [🏗️ Technical Docs](docs/WikiUnach_Documentacion_Tecnica.pdf) •
   [🎬 Demo Video](#-demo) •
   [⚙️ Setup Guide](#-installation--setup)
 
