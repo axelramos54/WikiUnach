@@ -8,13 +8,13 @@
 
   **Collaborative academic platform for the UNACH university community**
 
+  [![GitHub Release](https://img.shields.io/github/v/release/axelramos54/WikiUnach?include_prereleases=false&sort=semver&color=blue)](https://github.com/axelramos54/WikiUnach/releases/latest)
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
   [![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)]()
   [![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.7.2-purple.svg)]()
   [![C#](https://img.shields.io/badge/Language-C%23-239120.svg)]()
   [![AWS](https://img.shields.io/badge/Cloud-AWS%20S3%20%2B%20RDS-FF9900.svg)]()
   [![MySQL](https://img.shields.io/badge/Database-MySQL%208.0-4479A1.svg)]()
-  [![Release](https://img.shields.io/github/v/release/axelramos54/WikiUnach?cache_seconds=0)](https://github.com/axelramos54/WikiUnach/releases)
 
   [📖 User Manual](docs/WikiUnach_Manual_de_Usuario.pdf) •
   [🏗️ Technical Docs](docs/WikiUnach_Documentacion_Tecnica.pdf)•
