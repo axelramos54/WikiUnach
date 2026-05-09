@@ -8,8 +8,14 @@
          ========================================== -->
     <add key="AWS_AccessKey"  value="YOUR_AWS_ACCESS_KEY_HERE" />
     <add key="AWS_SecretKey"  value="YOUR_AWS_SECRET_KEY_HERE" />
-    <add key="AWS_BucketName" value="YOUR_S3_BUCKET_NAME" />
-    <add key="AWS_Region"     value="us-east-2" />
+    <add key="AWS_BucketName" value="YOUR_AWS_BUCKET_SERVER_NAME" />
+    <add key="AWS_Region"     value="YOUR_AWS_REGION" /> 
+
+    <!-- MySQL RDS Configuration -->
+    <add key="DB_Server"   value="YOUR_AWS_DATABSE_STRING" />
+    <add key="DB_Name"     value="YOUR_AWS_DATABSE_NAME" />
+    <add key="DB_User"     value="YOUR_AWS_DATABASE_USER" />
+    <add key="DB_Password" value="YOUR_AWS_DATABASE_PASSWORD" />
 
     <!-- ==========================================
          Gmail SMTP Configuration
@@ -17,9 +23,9 @@
          Generate at: https://myaccount.google.com/apppasswords
          ========================================== -->
     <add key="SMTP_Host"     value="smtp.gmail.com" />
-    <add key="SMTP_Port"     value="587" />
-    <add key="SMTP_User"     value="your-email@gmail.com" />
-    <add key="SMTP_Pass"     value="YOUR_GMAIL_APP_PASSWORD_HERE" />
+    <add key="SMTP_Port"     value="YOUR_SMTP_PORT" />
+    <add key="SMTP_User"     value="YOUR_SMTP_USER" />
+    <add key="SMTP_Pass"     value="YOUR_SMTP_PASSWORD" />
     <add key="SMTP_FromName" value="WUNACH - WikiUnach" />
 
   </appSettings>

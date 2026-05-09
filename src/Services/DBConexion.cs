@@ -1,25 +1,26 @@
-﻿using System;
-using MySql.Data.MySqlClient;
-
-namespace WUNACH
+﻿internal static class DBConexion
 {
-    internal static class DBConexion
+    private static string GetConnectionString()
     {
-        private const string ConnectionString =
-            "Server=YOUR-RDS-ENDPOINT.rds.amazonaws.com;" +
-            "Port=3306;" +
-            "Database=WikiUnach;" +
-            "Uid=YOUR_DB_USER;" +
-            "Pwd=YOUR_DB_PASSWORD;" +
-            "SslMode=Required;";
+        string server   = System.Configuration.ConfigurationManager
+                            .AppSettings["DB_Server"];
+        string database = System.Configuration.ConfigurationManager
+                            .AppSettings["DB_Name"];
+        string user     = System.Configuration.ConfigurationManager
+                            .AppSettings["DB_User"];
+        string password = System.Configuration.ConfigurationManager
+                            .AppSettings["DB_Password"];
 
-        /// <summary>
-        /// Devuelve una nueva instancia de MySqlConnection lista para abrir.
-        /// Uso: using (var conn = DBConexion.ObtenerConexion()) { conn.Open(); ... }
-        /// </summary>
-        public static MySqlConnection ObtenerConexion()
-        {
-            return new MySqlConnection(ConnectionString);
-        }
+        return $"Server={server};" +
+               $"Port=3306;" +
+               $"Database={database};" +
+               $"Uid={user};" +
+               $"Pwd={password};" +
+                "SslMode=Required;";
+    }
+
+    public static MySql.Data.MySqlClient.MySqlConnection ObtenerConexion()
+    {
+        return new MySql.Data.MySqlClient.MySqlConnection(GetConnectionString());
     }
 }
