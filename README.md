@@ -146,7 +146,33 @@ digital library**, organized by Faculty → Degree → Semester → Subject.
 
 ## 📸 Screenshots
 
-> 🖼️ Screenshots coming soon — application demo in progress.
+### 🔐 Login Screen
+![Login Screen](docs/screenshots/login.png)
+
+---
+
+### 🏠 Main Feed
+![Main Feed](docs/screenshots/principal.png)
+
+---
+
+### 📄 Wiki Page Detail
+![Wiki Page Detail](docs/screenshots/detalles.png)
+
+---
+
+### 📤 Upload Task
+![Upload Task](docs/screenshots/subir.png)
+
+---
+
+### 🔄 Version History
+![Version History](docs/screenshots/revisiones.png)
+
+---
+
+### 🔒 Admin Panel
+![Admin Panel](docs/screenshots/admin.png)
 
 ---
 
