@@ -188,9 +188,9 @@ digital library**, organized by Faculty → Degree → Semester → Subject.
 
 <div align="center">
 
-[![WikiUnach Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://youtu.be/R0Z1kk0pd5I)
+[![WikiUnach Demo](https://img.youtube.com/vi/R0Z1kk0pd5I/hqdefault.jpg)](https://www.youtube.com/watch?v=R0Z1kk0pd5I)
 
-▶️ **[Watch Full Demo on YouTube](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)**
+▶️ **[Watch Full Demo on YouTube](https://www.youtube.com/watch?v=R0Z1kk0pd5I)**
 
 </div>
 
@@ -201,14 +201,6 @@ The demo covers:
 - ✅ Wiki version history and commit comparison
 - ✅ Real-time notifications
 - ✅ Admin panel via native DLL validator
-
-The demo will cover:
-- User registration with email verification
-- Navigating by Faculty → Degree → Semester → Subject
-- Uploading a file to AWS S3
-- Version history and commit comparison
-- Admin panel access via native DLL validator
-
 ---
 
 ## 🚀 Installation & Setup
@@ -378,4 +370,4 @@ This project is licensed under the **MIT License** — see the
 
 ⭐ If you found this project useful, please consider starring the repository!
 
-</div>test
+</div>
