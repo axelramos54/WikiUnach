@@ -14,7 +14,7 @@
   [![C#](https://img.shields.io/badge/Language-C%23-239120.svg)]()
   [![AWS](https://img.shields.io/badge/Cloud-AWS%20S3%20%2B%20RDS-FF9900.svg)]()
   [![MySQL](https://img.shields.io/badge/Database-MySQL%208.0-4479A1.svg)]()
-  [![Release](https://img.shields.io/github/v/release/axelramos54/WikiUnach.svg)](https://github.com/axelramos54/WikiUnach/releases)
+  [![Release](https://img.shields.io/github/v/release/axelramos54/WikiUnach?cache_seconds=0)](https://github.com/axelramos54/WikiUnach/releases)
 
   [📖 User Manual](docs/WikiUnach_Manual_de_Usuario.pdf) •
   [🏗️ Technical Docs](docs/WikiUnach_Documentacion_Tecnica.pdf)•
