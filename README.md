@@ -185,7 +185,21 @@ digital library**, organized by Faculty → Degree → Semester → Subject.
 
 ## 🎬 Demo
 
-> 📽️ Full application walkthrough video coming soon.
+<div align="center">
+
+[![WikiUnach Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://youtu.be/R0Z1kk0pd5I)
+
+▶️ **[Watch Full Demo on YouTube](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)**
+
+</div>
+
+The demo covers:
+- ✅ User login and role-based access
+- ✅ Navigating Faculty → Degree → Semester → Subject
+- ✅ Uploading files to AWS S3
+- ✅ Wiki version history and commit comparison
+- ✅ Real-time notifications
+- ✅ Admin panel via native DLL validator
 
 The demo will cover:
 - User registration with email verification
